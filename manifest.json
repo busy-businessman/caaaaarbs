@@ -1,11 +1,11 @@
 {
 	"manifest_version": 2,
-	"name": "Caaaarbs",
+	"name": "Engram-to-Sheena",
 	"version": "1.0",
-	"description": "Paleo's best friend.",
-	"icons": { "16": "images/carbs16.png",
-           "48": "images/carbs48.png",
-          "128": "images/carbs128.png" },
+	"description": "Replaces the word "engram" with "Sheena" for a more sensible browsing experience.",
+	"icons": { "16": "images/sheena16.png",
+           "48": "images/sheena48.png",
+          "128": "images/sheena128.png" },
 	"content_scripts": 
 	[
 		{
