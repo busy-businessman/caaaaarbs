@@ -36,6 +36,12 @@ function handleText(textNode)
 	v = v.replace(/\bEngram\b/g, "Sheena");
 	v = v.replace(/\bengram\b/g, "Sheena");
 	v = v.replace(/\bENGRAM\b/g, "SHEENA");
+	v = v.replace(/\bEngrams\b/g, "Sheenas");
+	v = v.replace(/\bengrams\b/g, "Sheenas");
+	v = v.replace(/\bENGRAMS\b/g, "SHEENAS");
+	v = v.replace(/\bEngram's\b/g, "Sheena's");
+	v = v.replace(/\bengram's\b/g, "Sheena's");
+	v = v.replace(/\bENGRAM'S\b/g, "SHEENA'S");	
 
 	
 	textNode.nodeValue = v;
